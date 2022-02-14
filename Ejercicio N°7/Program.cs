@@ -21,7 +21,7 @@ namespace Ejercicio_N_7
         public static int[] cantidadVocales(string strPalabra) // Se genera la funcion pedida
         {
 
-            int[] arrayCantidadVocales = new int[5] {0,0,0,0,0}; // Arrglo de cantidad de vocales inicializado en 0
+            int[] arrayCantidadVocales = new int[5] {0,0,0,0,0}; // Arreglo de cantidad de vocales inicializado en 0
             int intCantidadLetras = strPalabra.Length; // Guardo la cantidad de letras que tiene la palabra ingresada
 
             for (int i = 0; i < intCantidadLetras; i++) // Recorro la palabra para verificar las vocales
